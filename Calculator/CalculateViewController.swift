@@ -89,7 +89,7 @@ class CalculateViewController: UIViewController {
             }else{
                 factorialErrorAlert()
             }
-            
+            numberLabel.text = String(calculateResult)
            case 2 :
             expressionString = initNum + addedDouble + "/"
            case 3 :
